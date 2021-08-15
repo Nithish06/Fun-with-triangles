@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triangle Fun</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <nav class="nav-bar">
+      <ul class="nav-list non-bulleted-list">
+        <li><a class="links" href="./index.html">Is trinagle?</a></li>
+        <li><a class="links active" href="./hyp.html">Hypotenuse</a></li>
+        <li><a class="links" href="./quiz.html">Quiz</a></li>
+        <li><a class="links" href="./area.html">Area</a></li>
+      </ul>
+    </nav>
+    <div class="hyp-wrap">
+      <div>
+        <h1>Find Hypotenuse</h1>
+        <p class="hyp-p">Enter the lengths of sides of right angle triangle</p>
+        <div class="flex">
+          <label for="base">Base(a)</label>
+          <input class="input-field" id="base" type="number" />
+        </div>
+        <div class="flex">
+          <label for="height">Height(b)</label>
+          <input class="input-field" id="height" type="number" />
+        </div>
+
+        <button class="btn">Submit</button>
+
+        <div class="hyp-output">
+          <p class="hyp-output"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="hyp.js"></script>
+  </body>
+</html>

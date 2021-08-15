@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+
+*,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar {
+  background-color: lightblue;
+  border-bottom-left-radius: 20px;
+}
+
+.non-bulleted-list {
+  list-style: none;
+}
+
+.links {
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+.nav-list {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.active {
+  font-weight: bolder;
+}
+
+/* index */
+
+.index-wrap {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-wrap button {
+  padding: 10px;
+}
+.index-wrap p {
+  margin-bottom: 20px;
+}
+/* hyp */
+
+.hyp-wrap {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hyp-wrap button {
+  padding: 10px;
+  background-color: wheat;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.flex input {
+  margin-top: 5px;
+}
+
+/* quiz */
+
+.question-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.question-container label {
+  margin-right: 20px;
+}
+
+.form {
+  margin: 10px;
+}
+
+.main-wrapper {
+  padding-left: 30px;
+}
+
+/* area */
+
+.area-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  width: 100vw;
+}
+
+.area {
+  max-width: 400px;
+}
