@@ -2,7 +2,7 @@ var form = document.querySelector(".form");
 var outputBtn = document.querySelector("#submit-answer-btn");
 var showMsg = document.querySelector(".output");
 var output = document.querySelector(".opt");
-var questionContainer = document.querySelectorAll(".question-container");
+var questionHolder = document.querySelectorAll(".question-holder");
 
 const correctAnswer = [
   "Yes",
@@ -24,9 +24,9 @@ function calScore() {
   for (let value of formResult.values()) {
     if (value === correctAnswer[index]) {
       score++;
-      questionContainer[index].style.backgroundColor = "lightgreen";
+      questionHolder[index].style.backgroundColor = "lightgreen";
     } else {
-      questionContainer[index].style.backgroundColor = "pink";
+      questionHolder[index].style.backgroundColor = "pink";
     }
     index++;
   }
